@@ -1,0 +1,37 @@
+Project name - reliance real time stock market price(close) prediction using RandomForestRegressor
+Gathering required data reliance stock morket yahoo
+In this project , i use some Library - 1- pandas 
+2- numpy
+3- seaborn
+4- matplotlib , pyplot
+5- sklearn.preprocessing , LabelEncoder
+6- sklearn.model_selection , train_test_split
+7- sklearn.linear_model , LinearRegression 
+8- sklearn.metrics , mean_absolute_error, r2_score
+Features used: Open, High, Low, Volume, Day, Month, Year; 
+target: Price (Close).
+Shape after cleaning: 1,286 rows, 8 columns (approx, train 1,028 / test 258).
+Visualization
+1- boxplot
+2- pie
+3- kdeplot
+4- histplot
+5- plot
+6- hist
+7- plot
+Models Used- Linear Regression , Support Vector Regressor (SVR) , Decision Tree Regresso , Random Forest Regresso.
+R² score: 0.9643137730321678 - r2_score
+r2_sr: 0.5597201006857722 - SVR 
+r2_dt : 0.9954630711308422 -DecisionTreeRegressor
+r2: 0.9970950149848037 -  RandomForestRegressor
+
+Shows predicted close prices closely follow actual prices
+Gradio Web App
+Loaded model from data.pkl with pickle.
+​Created Gradio interface: inputs (Open, High, Low, Volume, Year, Day, Month), output: Predicted Price
+Random Forest gives very accurate predictions for this Reliance data
+flask
+today- Open 1380
+High - 1518.70
+low- 1242.70
+Volume - 1933824
