@@ -1,0 +1,2 @@
+# Machin-Learning-RandomForestRegressor-Reliance-stock-market-price-pridiction
+This project predicts Reliance stock prices using ML with features like open, high, low, and volume. Models like Linear Regression, SVR, Decision Tree, and Random Forest were used. Random Forest achieved the highest R² score, giving the most accurate results. R2 score - 0.9966676132979 84 , DecisionTreeRegressor - 0.9954555074731353.  
